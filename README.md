@@ -1,3 +1,5 @@
 # findface
+pip install deepface
 
-나의 첫 앱
+lec code : 빈칸 채우기 
+test code : 완성 코드 
