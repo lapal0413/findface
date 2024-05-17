@@ -33,6 +33,11 @@ if source_img:
     st.image(source_img,
                 caption="Uploaded Image",
                 use_column_width=True)
-    if st.button("등록"):
-        image_name = st.text_input("Movie title", "Life of Brian")
-        uploaded_image.save("database/img/"+image_name+".png")
+
+if source_img:
+    image_name = st.text_input("등록 이름")
+    if image_name:
+        if st.button("등록"):
+            uploaded_image.save("database/"+image_name+".png")
+            st.write(image_name+"등록왈료")
+
