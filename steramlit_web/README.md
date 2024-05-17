@@ -1,4 +1,5 @@
 ## streamlit download:
-\code{pip install streamlit}
+pip install streamlit
 
+## streamlit run 
 streamlit run 
