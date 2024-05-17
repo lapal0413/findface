@@ -2,4 +2,4 @@
 pip install streamlit
 
 ## streamlit run 
-streamlit run 
+streamlit run 얼굴등록.py
